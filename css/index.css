@@ -215,3 +215,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* *About Page CSS* */
+
+.big{
+    width:100%;
+    ;
+}
+
+.frames{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    border-top: 1px dashed black;
+    width:98%;
+    margin:1%;
+}
+
+.frame{
+    display:flex;
+    flex-flow:column wrap;
+    border-bottom: 1px dashed black;
+    margin:1%;
+    width:48%;
+}
+
+.frame button{
+    border: 1px solid black;
+    background:white;
+    width:30%;
+    padding: 5px;
+    border-radius:10%;
+}
